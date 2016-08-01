@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3E08FE1D4F01D700DF7D3C /* snow_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C3E08FD1D4F01D700DF7D3C /* snow_background.jpg */; };
 		0CECE9451D4EF7EA00C27FF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CECE9441D4EF7EA00C27FF6 /* main.m */; };
 		0CECE9481D4EF7EA00C27FF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CECE9471D4EF7EA00C27FF6 /* AppDelegate.m */; };
 		0CECE94B1D4EF7EA00C27FF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CECE94A1D4EF7EA00C27FF6 /* ViewController.m */; };
@@ -14,11 +15,11 @@
 		0CECE9501D4EF7EA00C27FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CECE94F1D4EF7EA00C27FF6 /* Assets.xcassets */; };
 		0CECE9531D4EF7EA00C27FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CECE9511D4EF7EA00C27FF6 /* LaunchScreen.storyboard */; };
 		0CECE95C1D4EF80A00C27FF6 /* HHSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CECE95B1D4EF80A00C27FF6 /* HHSnowView.m */; };
-		0CECE95F1D4EF80E00C27FF6 /* snow_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CECE95D1D4EF80E00C27FF6 /* snow_background.png */; };
 		0CECE9601D4EF80E00C27FF6 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CECE95E1D4EF80E00C27FF6 /* snow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3E08FD1D4F01D700DF7D3C /* snow_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = snow_background.jpg; sourceTree = "<group>"; };
 		0CECE9401D4EF7EA00C27FF6 /* HHSnowAnimationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHSnowAnimationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CECE9441D4EF7EA00C27FF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CECE9461D4EF7EA00C27FF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		0CECE9541D4EF7EA00C27FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CECE95A1D4EF80A00C27FF6 /* HHSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSnowView.h; sourceTree = "<group>"; };
 		0CECE95B1D4EF80A00C27FF6 /* HHSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSnowView.m; sourceTree = "<group>"; };
-		0CECE95D1D4EF80E00C27FF6 /* snow_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow_background.png; sourceTree = "<group>"; };
 		0CECE95E1D4EF80E00C27FF6 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 				0CECE95A1D4EF80A00C27FF6 /* HHSnowView.h */,
 				0CECE95B1D4EF80A00C27FF6 /* HHSnowView.m */,
 				0CECE94C1D4EF7EA00C27FF6 /* Main.storyboard */,
-				0CECE95D1D4EF80E00C27FF6 /* snow_background.png */,
+				0C3E08FD1D4F01D700DF7D3C /* snow_background.jpg */,
 				0CECE95E1D4EF80E00C27FF6 /* snow.png */,
 				0CECE94F1D4EF7EA00C27FF6 /* Assets.xcassets */,
 				0CECE9511D4EF7EA00C27FF6 /* LaunchScreen.storyboard */,
@@ -147,8 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CECE95F1D4EF80E00C27FF6 /* snow_background.png in Resources */,
 				0CECE9601D4EF80E00C27FF6 /* snow.png in Resources */,
+				0C3E08FE1D4F01D700DF7D3C /* snow_background.jpg in Resources */,
 				0CECE9531D4EF7EA00C27FF6 /* LaunchScreen.storyboard in Resources */,
 				0CECE9501D4EF7EA00C27FF6 /* Assets.xcassets in Resources */,
 				0CECE94E1D4EF7EA00C27FF6 /* Main.storyboard in Resources */,
@@ -314,6 +314,7 @@
 				0CECE9591D4EF7EA00C27FF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

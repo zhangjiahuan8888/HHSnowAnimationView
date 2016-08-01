@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    HHSnowView *snowView = [[HHSnowView alloc] initWithFrame:self.view.bounds withBackgroundImageName:@"snow_background" withSnowImgName:@"snow"];
+    HHSnowView *snowView = [[HHSnowView alloc] initWithFrame:self.view.bounds withBackgroundImageName:@"snow_background.jpg" withSnowImgName:@"snow"];
     [snowView beginSnow];
     [self.view addSubview:snowView];
 }
